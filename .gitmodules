@@ -6,3 +6,7 @@
 	path = dock3-symmetry
 	url = https://github.com/docking-org/dock3
 	branch = symmetry
+[submodule "zinc22-3d"]
+	path = zinc22-3d
+	url = https://github.com/docking-org/zinc22-3d
+	branch = main
