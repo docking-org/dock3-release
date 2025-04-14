@@ -1,0 +1,4 @@
+[submodule "dock3"]
+	path = dock3
+	url = https://github.com/docking-org/dock3
+	branch = main
