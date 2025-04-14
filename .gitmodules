@@ -10,3 +10,7 @@
 	path = zinc22-3d
 	url = https://github.com/docking-org/zinc22-3d
 	branch = main
+[submodule "pydock3"]
+	path = pydock3
+	url = https://github.com/docking-org/pydock3
+	branch = develop
