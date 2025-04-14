@@ -2,3 +2,7 @@
 	path = dock3
 	url = https://github.com/docking-org/dock3
 	branch = main
+[submodule "dock3-symmetry"]
+	path = dock3-symmetry
+	url = https://github.com/docking-org/dock3
+	branch = symmetry
