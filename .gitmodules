@@ -18,3 +18,7 @@
 	path = legacy3
 	url = https://github.com/docking-org/legacy3
 	branch = main
+[submodule "SUBDOCK"]
+	path = SUBDOCK
+	url = https://github.com/docking-org/SUBDOCK
+	branch = master
