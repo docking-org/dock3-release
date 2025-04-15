@@ -50,5 +50,5 @@ cp -r dock3 legacy3/docking/DOCK
 
 # Create the tar'd release
 mkdir -p DOCK3.8
-cp -r dock3 dock3-symmetry legacy3 pydock3 SUBDOCK zinc22-3d DOCK3.8
+cp -r dock3 dock3-symmetry legacy3 pydock3 SUBDOCK zinc22-3d test README.md DOCK3.8
 tar czf dock-"$1".tgz DOCK3.8
