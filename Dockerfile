@@ -23,7 +23,8 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
 # Install NVIDIA HPC SDK (PGI)
 RUN cd /opt/nvidia/nvhpc_2023_237_Linux_x86_64_cuda_multi && \
     ./install -accept-license -default && \
-    rm /opt/nvidia/nvhpc_2023_237_Linux_x86_64_cuda_multi.tar.gz
+    rm /opt/nvidia/nvhpc_2023_237_Linux_x86_64_cuda_multi.tar.gz && \
+    rm -r /opt/nvidia/nvhpc_2023_237_Linux_x86_64_cuda_multi
 
 # Install Poetry
 ENV POETRY_HOME="/opt/poetry"
