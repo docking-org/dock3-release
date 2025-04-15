@@ -1,8 +1,19 @@
 # dock3-release
 Submodules the exact repos used for building the current DOCK3 release provided on the license server
 
+## To make a new release:
+* Update the git submodules to point to the new github commits you want (for ex. point zinc22-3d to the newest version)
+* Create a new github release: releases -> draft a new release -> choose a tag (v.3.8.xx) -> Release Title (DOCK3.8.xx) -> Describe this release (release notes) -> Publish release
+* Build the new release and put it on the license server!
 
 ## To build the release:
+
+### Clone this repo
+
+```
+git clone --recurse-submodules https://github.com/docking-org/dock3-release.git
+cd dock3-release
+```
 
 ### Docker build environment (recommended):
 
@@ -30,10 +41,6 @@ Submodules the exact repos used for building the current DOCK3 release provided 
 
 
 Both methods will output dock-[version_number].tgz which is ready to put on the license server
-
-
-## To make a new release:
-Update the git submodules to point to the new github repos you want and rebuild! 
 
 ## Installing the release
 
