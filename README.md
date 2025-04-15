@@ -8,10 +8,10 @@ Submodules the exact repos used for building the current DOCK3 release provided 
 
 ## To build the release:
 
-### Clone this repo
+### Clone the release you want
 
 ```
-git clone --recurse-submodules https://github.com/docking-org/dock3-release.git
+git clone --recurse-submodules --branch [version_number(ex. v3.8.5)] https://github.com/docking-org/dock3-release.git
 cd dock3-release
 ```
 
