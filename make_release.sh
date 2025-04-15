@@ -27,7 +27,7 @@ clean dock3/src/i386
 # dock3-symmetry
 build dock3-symmetry/src/libfgz
 build dock3-symmetry/src/i386
-cp dock3-symmetry/src/i386/dock64 dock3
+cp dock3-symmetry/src/i386/dock64 dock3-symmetry
 clean dock3-symmetry/src/libfgz
 clean dock3-symmetry/src/i386
 
