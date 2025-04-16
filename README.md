@@ -22,7 +22,7 @@ cd dock3-release
     wget https://developer.download.nvidia.com/hpc-sdk/23.7/nvhpc_2023_237_Linux_x86_64_cuda_multi.tar.gz
     docker build -t dock3-release-env .
     ```
-* Note: Someone has probably already built this docker image on gimel/epyc so you can skip this unless the docker environment is missing or you needed to update the Dockerfile to upgrade ubuntu,python,poetry,PGI,etc
+* Note: Someone has probably already built this docker image on gimel/epyc so you can skip this unless the docker environment is missing or you need to update the Dockerfile to upgrade centos,python,poetry,PGI,etc. For the love of god someone will eventually upgrade our nodes off CentOS 7 and we can update the Dockerfile and not build everything from scratch. 
 
 * Create the release:
     ```
@@ -51,6 +51,7 @@ Both methods will output dock-[version_number].tgz which is ready to put on the 
 * This will give you the DOCK3.8 folder containing all the required software
 
 ### Requirements
+* GLIBC >=2.17
 * python >=3.8.1, <3.11
 * SGE, Slurm, or GNU Parallel
 
