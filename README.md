@@ -71,7 +71,7 @@ Both methods will output dock-[version_number].tgz which is ready to put on the 
 ### Installing pydock
 
 
-* Pydock is provided as a pip installable package which we recommend installing into a new python venv
+* Pydock is provided as a pip installable package which we recommend installing into a new python venv. Please note that it requires python >3.8.1 and <3.11.
 
     ```
     python3 -m venv ${DOCK_INSTALL_PATH}/pydock_env
